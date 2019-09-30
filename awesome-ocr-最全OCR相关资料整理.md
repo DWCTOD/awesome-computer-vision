@@ -1,0 +1,859 @@
+# awesome-ocr-最全OCR相关资料整理
+
+来源：https://handong1587.github.io/deep_learning/2015/10/09/ocr.html#papers
+
+两个超赞的资源：
+
+jbhuang0604/awesome-computer-vision · GitHub
+
+https://github.com/jbhuang0604/awesome-computer-vision
+
+bayandin/awesome-awesomeness · GitHub各种领域的 Awesome 
+
+https://github.com/bayandin/awesome-awesomeness
+
+# Papers
+
+**Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks**
+
+- intro: Google. Ian J. Goodfellow
+- arxiv: <https://arxiv.org/abs/1312.6082>
+
+**End-to-End Text Recognition with Convolutional Neural Networks**
+
+- paper: <http://www.cs.stanford.edu/~acoates/papers/wangwucoatesng_icpr2012.pdf>
+- PhD thesis: <http://cs.stanford.edu/people/dwu4/HonorThesis.pdf>
+
+**Word Spotting and Recognition with Embedded Attributes**
+
+![img](https://handong1587.github.io/assets/ocr-materials/Word_Spotting_and_Recognition_with_Embedded_Attributes.jpg)
+
+- paper: <http://ieeexplore.ieee.org.sci-hub.org/xpl/articleDetails.jsp?arnumber=6857995&filter%3DAND%28p_IS_Number%3A6940341%29>
+
+**Reading Text in the Wild with Convolutional Neural Networks**
+
+![img](http://www.robots.ox.ac.uk/~vgg/research/text/pipeline.png)
+
+- arxiv: <http://arxiv.org/abs/1412.1842>
+- homepage: <http://www.robots.ox.ac.uk/~vgg/publications/2016/Jaderberg16/>
+- demo: <http://zeus.robots.ox.ac.uk/textsearch/#/search/>
+- code: <http://www.robots.ox.ac.uk/~vgg/research/text/>
+
+**Deep structured output learning for unconstrained text recognition**
+
+- intro: “propose an architecture consisting of a character sequence CNN and an N-gram encoding CNN which act on an input image in parallel and whose outputs are utilized along with a CRF model to recognize the text content present within the image.”
+- arxiv: <http://arxiv.org/abs/1412.5903>
+
+**Deep Features for Text Spotting**
+
+- paper: <http://www.robots.ox.ac.uk/~vgg/publications/2014/Jaderberg14/jaderberg14.pdf>
+- bitbucket: <https://bitbucket.org/jaderberg/eccv2014_textspotting>
+- gitxiv: <http://gitxiv.com/posts/uB4y7QdD5XquEJ69c/deep-features-for-text-spotting>
+
+**Reading Scene Text in Deep Convolutional Sequences**
+
+- intro: AAAI 2016
+- arxiv: <http://arxiv.org/abs/1506.04395>
+
+**DeepFont: Identify Your Font from An Image**
+
+- arxiv: <http://arxiv.org/abs/1507.03196>
+
+**An End-to-End Trainable Neural Network for Image-based Sequence Recognition and Its Application to Scene Text Recognition**
+
+- intro: Convolutional Recurrent Neural Network (CRNN)
+- arxiv: <http://arxiv.org/abs/1507.05717>
+- github: <https://github.com/bgshih/crnn>
+- github: <https://github.com/meijieru/crnn.pytorch>
+
+**Recursive Recurrent Nets with Attention Modeling for OCR in the Wild**
+
+- arxiv: <http://arxiv.org/abs/1603.03101>
+
+**Writer-independent Feature Learning for Offline Signature Verification using Deep Convolutional Neural Networks**
+
+- arxiv: <http://arxiv.org/abs/1604.00974>
+
+**DeepText: A Unified Framework for Text Proposal Generation and Text Detection in Natural Images**
+
+- arxiv: <http://arxiv.org/abs/1605.07314>
+
+**End-to-End Interpretation of the French Street Name Signs Dataset**
+
+- paper: <http://link.springer.com/chapter/10.1007%2F978-3-319-46604-0_30>
+- github: <https://github.com/tensorflow/models/tree/master/street>
+
+**End-to-End Subtitle Detection and Recognition for Videos in East Asian Languages via CNN Ensemble with Near-Human-Level Performance**
+
+- arxiv: <https://arxiv.org/abs/1611.06159>
+
+**Smart Library: Identifying Books in a Library using Richly Supervised Deep Scene Text Reading**
+
+- arxiv: <https://arxiv.org/abs/1611.07385>
+
+**Improving Text Proposals for Scene Images with Fully Convolutional Networks**
+
+- intro: Universitat Autonoma de Barcelona (UAB) & University of Florence
+- intro: International Conference on Pattern Recognition (ICPR) - DLPR (Deep Learning for Pattern Recognition) workshop
+- arxiv: <https://arxiv.org/abs/1702.05089>
+
+**Scene Text Eraser**
+
+<https://arxiv.org/abs/1705.02772>
+
+**Attention-based Extraction of Structured Information from Street View Imagery**
+
+- intro: University College London & Google Inc
+- arxiv: <https://arxiv.org/abs/1704.03549>
+- github: <https://github.com/tensorflow/models/tree/master/attention_ocr>
+
+**Implicit Language Model in LSTM for OCR**
+
+<https://arxiv.org/abs/1805.09441>
+
+**Scene Text Magnifier**
+
+- intro: ICDAR 2019
+- arxiv: <https://arxiv.org/abs/1907.00693>
+
+# Text Detection
+
+**Object Proposals for Text Extraction in the Wild**
+
+- intro: ICDAR 2015
+- arxiv: <http://arxiv.org/abs/1509.02317>
+- github: <https://github.com/lluisgomez/TextProposals>
+
+**Text-Attentional Convolutional Neural Networks for Scene Text Detection**
+
+- arxiv: <http://arxiv.org/abs/1510.03283>
+
+**Accurate Text Localization in Natural Image with Cascaded Convolutional Text Network**
+
+- arxiv: <http://arxiv.org/abs/1603.09423>
+
+**Synthetic Data for Text Localisation in Natural Images**
+
+![img](https://raw.githubusercontent.com/ankush-me/SynthText/master/samples.png)
+
+- intro: CVPR 2016
+- project page: <http://www.robots.ox.ac.uk/~vgg/data/scenetext/>
+- arxiv: <http://arxiv.org/abs/1604.06646>
+- paper: <http://www.robots.ox.ac.uk/~vgg/data/scenetext/gupta16.pdf>
+- github: <https://github.com/ankush-me/SynthText>
+
+**Scene Text Detection via Holistic, Multi-Channel Prediction**
+
+- arxiv: <http://arxiv.org/abs/1606.09002>
+
+**Detecting Text in Natural Image with Connectionist Text Proposal Network**
+
+- intro: ECCV 2016
+- arxiv: <http://arxiv.org/abs/1609.03605>
+- github(Caffe): <https://github.com/tianzhi0549/CTPN>
+- github(CUDA8.0 support): <https://github.com/qingswu/CTPN>
+- demo: <http://textdet.com/>
+- github(Tensorflow): <https://github.com/eragonruan/text-detection-ctpn>
+
+**TextBoxes: A Fast Text Detector with a Single Deep Neural Network**
+
+- intro: AAAI 2017
+- arxiv: <https://arxiv.org/abs/1611.06779>
+- github(Caffe): <https://github.com/MhLiao/TextBoxes>
+- github: <https://github.com/xiaodiu2010/TextBoxes-TensorFlow>
+
+**TextBoxes++: A Single-Shot Oriented Scene Text Detector**
+
+- intro: TIP 2018. University of Science and Technology(HUST)
+- arxiv: <https://arxiv.org/abs/1801.02765>
+- github(official, Caffe): <https://github.com/MhLiao/TextBoxes_plusplus>
+
+**Arbitrary-Oriented Scene Text Detection via Rotation Proposals**
+
+- intro: IEEE Transactions on Multimedia
+- keywords: RRPN
+- arxiv: <https://arxiv.org/abs/1703.01086>
+- github: <https://github.com/mjq11302010044/RRPN>
+- github: <https://github.com/DetectionTeamUCAS/RRPN_Faster-RCNN_Tensorflow>
+
+**Deep Matching Prior Network: Toward Tighter Multi-oriented Text Detection**
+
+- intro: CVPR 2017
+- intro: F-measure 70.64%, outperforming the existing state-of-the-art method with F-measure 63.76%
+- arxiv: <https://arxiv.org/abs/1703.01425>
+
+**Detecting Oriented Text in Natural Images by Linking Segments**
+
+- intro: CVPR 2017
+- arxiv: <https://arxiv.org/abs/1703.06520>
+- github(Tensorflow): <https://github.com/dengdan/seglink>
+
+**Deep Direct Regression for Multi-Oriented Scene Text Detection**
+
+- arxiv: <https://arxiv.org/abs/1703.08289>
+
+**Cascaded Segmentation-Detection Networks for Word-Level Text Spotting**
+
+<https://arxiv.org/abs/1704.00834>
+
+**Text-Detection-using-py-faster-rcnn-framework**
+
+- github: <https://github.com/jugg1024/Text-Detection-with-FRCN>
+
+**WordFence: Text Detection in Natural Images with Border Awareness**
+
+- intro: ICIP 2017
+- arcxiv: <https://arxiv.org/abs/1705.05483>
+
+**SSD-text detection: Text Detector**
+
+- intro: A modified SSD model for text detection
+- github: <https://github.com/oyxhust/ssd-text_detection>
+
+**R2CNN: Rotational Region CNN for Orientation Robust Scene Text Detection**
+
+- intro: Samsung R&D Institute China
+- arxiv: <https://arxiv.org/abs/1706.09579>
+
+**R-PHOC: Segmentation-Free Word Spotting using CNN**
+
+- intro: ICDAR 2017
+- arxiv: <https://arxiv.org/abs/1707.01294>
+
+**Towards End-to-end Text Spotting with Convolutional Recurrent Neural Networks**
+
+- intro: ICCV 2017
+- arxiv: <https://arxiv.org/abs/1707.03985>
+
+**EAST: An Efficient and Accurate Scene Text Detector**
+
+- intro: CVPR 2017. Megvii
+- arxiv: <https://arxiv.org/abs/1704.03155>
+- paper: <http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_EAST_An_Efficient_CVPR_2017_paper.pdf>
+- github(Tensorflow): <https://github.com/argman/EAST>
+
+**Deep Scene Text Detection with Connected Component Proposals**
+
+- intro: Amap Vision Lab, Alibaba Group
+- arxiv: <https://arxiv.org/abs/1708.05133>
+
+**Single Shot Text Detector with Regional Attention**
+
+- intro: ICCV 2017
+- arxiv: <https://arxiv.org/abs/1709.00138>
+- github: <https://github.com/BestSonny/SSTD>
+- code: [http://sstd.whuang.org](http://sstd.whuang.org/)
+
+**Fused Text Segmentation Networks for Multi-oriented Scene Text Detection**
+
+<https://arxiv.org/abs/1709.03272>
+
+**Deep Residual Text Detection Network for Scene Text**
+
+- intro: IAPR International Conference on Document Analysis and Recognition (ICDAR) 2017. Samsung R&D Institute of China, Beijing
+- arxiv: <https://arxiv.org/abs/1711.04147>
+
+**Feature Enhancement Network: A Refined Scene Text Detector**
+
+- intro: AAAI 2018
+- arxiv: <https://arxiv.org/abs/1711.04249>
+
+**ArbiText: Arbitrary-Oriented Text Detection in Unconstrained Scene**
+
+<https://arxiv.org/abs/1711.11249>
+
+**Detecting Curve Text in the Wild: New Dataset and New Solution**
+
+- arxiv: <https://arxiv.org/abs/1712.02170>
+- github: <https://github.com/Yuliang-Liu/Curve-Text-Detector>
+
+**FOTS: Fast Oriented Text Spotting with a Unified Network**
+
+<https://arxiv.org/abs/1801.01671>
+
+**PixelLink: Detecting Scene Text via Instance Segmentation**
+
+- intro: AAAI 2018
+- arxiv: <https://arxiv.org/abs/1801.01315>
+
+**PixelLink: Detecting Scene Text via Instance Segmentation**
+
+- intro: AAAI 2018. Zhejiang University & Chinese Academy of Sciences
+- arxiv: <https://arxiv.org/abs/1801.01315>
+
+**Sliding Line Point Regression for Shape Robust Scene Text Detection**
+
+<https://arxiv.org/abs/1801.09969>
+
+**Multi-Oriented Scene Text Detection via Corner Localization and Region Segmentation**
+
+- intro: CVPR 2018
+- arxiv: <https://arxiv.org/abs/1802.08948>
+
+**Single Shot TextSpotter with Explicit Alignment and Attention**
+
+- intro: CVPR 2018
+- arxiv: <https://arxiv.org/abs/1803.03474>
+
+**Rotation-Sensitive Regression for Oriented Scene Text Detection**
+
+- intro: CVPR 2018
+- arxiv: <https://arxiv.org/abs/1803.05265>
+
+**Detecting Multi-Oriented Text with Corner-based Region Proposals**
+
+- arxiv: <https://arxiv.org/abs/1804.02690>
+- github: <https://github.com/xhzdeng/crpn>
+
+**An Anchor-Free Region Proposal Network for Faster R-CNN based Text Detection Approaches**
+
+<https://arxiv.org/abs/1804.09003>
+
+**IncepText: A New Inception-Text Module with Deformable PSROI Pooling for Multi-Oriented Scene Text Detection**
+
+- intro: IJCAI 2018. Alibaba Group
+- arxiv: <https://arxiv.org/abs/1805.01167>
+
+**Boosting up Scene Text Detectors with Guided CNN**
+
+<https://arxiv.org/abs/1805.04132>
+
+**Shape Robust Text Detection with Progressive Scale Expansion Network**
+
+- arxiv: <https://arxiv.org/abs/1806.02559>
+- github: <https://github.com/whai362/PSENet>
+
+**A Single Shot Text Detector with Scale-adaptive Anchors**
+
+<https://arxiv.org/abs/1807.01884>
+
+**TextSnake: A Flexible Representation for Detecting Text of Arbitrary Shapes**
+
+- intro: ECCV 2018
+- arxiv: <https://arxiv.org/abs/1807.01544>
+
+**Mask TextSpotter: An End-to-End Trainable Neural Network for Spotting Text with Arbitrary Shapes**
+
+- intro: ECCV 2018. Huazhong University of Science and Technology & Megvii (Face++) Technology
+- arxiv: <https://arxiv.org/abs/1807.02242>
+
+**Accurate Scene Text Detection through Border Semantics Awareness and Bootstrapping**
+
+- intro: ECCV 2018
+- arxiv: <https://arxiv.org/abs/1807.03547>
+
+**TextContourNet: a Flexible and Effective Framework for Improving Scene Text Detection Architecture with a Multi-task Cascade**
+
+<https://arxiv.org/abs/1809.03050>
+
+**Correlation Propagation Networks for Scene Text Detection**
+
+<https://arxiv.org/abs/1810.00304>
+
+**Scene Text Detection with Supervised Pyramid Context Network**
+
+- intro: AAAI 2019
+- arxiv: <https://arxiv.org/abs/1811.08605>
+
+**Improving Rotated Text Detection with Rotation Region Proposal Networks**
+
+<https://arxiv.org/abs/1811.07031>
+
+**Pixel-Anchor: A Fast Oriented Scene Text Detector with Combined Networks**
+
+<https://arxiv.org/abs/1811.07432>
+
+**Mask R-CNN with Pyramid Attention Network for Scene Text Detection**
+
+- intro: WACV 2019
+- arxiv: <https://arxiv.org/abs/1811.09058>
+
+**TextField: Learning A Deep Direction Field for Irregular Scene Text Detection**
+
+- intro: Huazhong University of Science and Technology (HUST) & Alibaba Group
+- arxiv: <https://arxiv.org/abs/1812.01393>
+
+**Detecting Text in the Wild with Deep Character Embedding Network**
+
+- intro: ACCV 2018
+- intro: Baidu
+- arxiv: <https://arxiv.org/abs/1901.00363>
+
+**MSR: Multi-Scale Shape Regression for Scene Text Detection**
+
+<https://arxiv.org/abs/1901.02596>
+
+**Pyramid Mask Text Detector**
+
+- intro: SenseTime & Beihang University & CUHK
+- arxiv: <https://arxiv.org/abs/1903.11800>
+
+**Shape Robust Text Detection with Progressive Scale Expansion Network**
+
+- intro: CVPR 2019
+- arxiv: <https://arxiv.org/abs/1903.12473>
+
+**Tightness-aware Evaluation Protocol for Scene Text Detection**
+
+- intro: CVPR 2019
+- arxiv: <https://arxiv.org/abs/1904.00813>
+- github: <https://github.com/Yuliang-Liu/TIoU-metric>
+
+**Character Region Awareness for Text Detection**
+
+- intro: CVPR 2019
+- keywords: CRAFT: Character-Region Awareness For Text detection
+- arxiv: <https://arxiv.org/abs/1904.01941>
+- github(official): <https://github.com/clovaai/CRAFT-pytorch>
+
+**Towards End-to-End Text Spotting in Natural Scenes**
+
+- intro: An extension of the work “Towards End-to-end Text Spotting with Convolutional Recurrent Neural Networks”, Proc. Int. Conf. Comp. Vision 2017
+- arxiv: <https://arxiv.org/abs/1906.06013>
+
+**A Single-Shot Arbitrarily-Shaped Text Detector based on Context Attended Multi-Task Learning**
+
+- intro: ACM MM 2019
+- arxiv: <https://arxiv.org/abs/1908.05498>
+
+**Geometry Normalization Networks for Accurate Scene Text Detection**
+
+- intro: ICCV 2019
+- arxiv: <https://arxiv.org/abs/1909.00794>
+
+# Text Recognition
+
+**Sequence to sequence learning for unconstrained scene text recognition**
+
+- intro: master thesis
+- arxiv: <http://arxiv.org/abs/1607.06125>
+
+**Drawing and Recognizing Chinese Characters with Recurrent Neural Network**
+
+- arxiv: <https://arxiv.org/abs/1606.06539>
+
+**Learning Spatial-Semantic Context with Fully Convolutional Recurrent Network for Online Handwritten Chinese Text Recognition**
+
+- intro: correct rates: Dataset-CASIA 97.10% and Dataset-ICDAR 97.15%
+- arxiv: <https://arxiv.org/abs/1610.02616>
+
+**Stroke Sequence-Dependent Deep Convolutional Neural Network for Online Handwritten Chinese Character Recognition**
+
+- arxiv: <https://arxiv.org/abs/1610.04057>
+
+**Visual attention models for scene text recognition**
+
+<https://arxiv.org/abs/1706.01487>
+
+**Focusing Attention: Towards Accurate Text Recognition in Natural Images**
+
+- intro: ICCV 2017
+- arxiv: <https://arxiv.org/abs/1709.02054>
+
+**Scene Text Recognition with Sliding Convolutional Character Models**
+
+<https://arxiv.org/abs/1709.01727>
+
+**AdaDNNs: Adaptive Ensemble of Deep Neural Networks for Scene Text Recognition**
+
+<https://arxiv.org/abs/1710.03425>
+
+**A New Hybrid-parameter Recurrent Neural Networks for Online Handwritten Chinese Character Recognition**
+
+<https://arxiv.org/abs/1711.02809>
+
+**AON: Towards Arbitrarily-Oriented Text Recognition**
+
+- arxiv: <https://arxiv.org/abs/1711.04226>
+- github: <https://github.com/huizhang0110/AON>
+
+**Arbitrarily-Oriented Text Recognition**
+
+- intro: A method used in ICDAR 2017 word recognition competitions
+- arxiv: <https://arxiv.org/abs/1711.04226>
+
+**SEE: Towards Semi-Supervised End-to-End Scene Text Recognition**
+
+<https://arxiv.org/abs/1712.05404>
+
+**Edit Probability for Scene Text Recognition**
+
+- intro: Fudan University & Hikvision Research Institute
+- arxiv: <https://arxiv.org/abs/1805.03384>
+
+**SCAN: Sliding Convolutional Attention Network for Scene Text Recognition**
+
+<https://arxiv.org/abs/1806.00578>
+
+**Adaptive Adversarial Attack on Scene Text Recognition**
+
+- intro: University of Florida
+- arxiv: <https://arxiv.org/abs/1807.03326>
+
+**ESIR: End-to-end Scene Text Recognition via Iterative Image Rectification**
+
+<https://arxiv.org/abs/1812.05824>
+
+**A Multi-Object Rectified Attention Network for Scene Text Recognition**
+
+- intro: Pattern Recognition 2019
+- keywords: MORAN
+- arxiv: <https://arxiv.org/abs/1901.03003>
+
+**SAFE: Scale Aware Feature Encoder for Scene Text Recognition**
+
+- intro: ACCV 2018
+- arxiv: <https://arxiv.org/abs/1901.05770>
+
+**A Simple and Robust Convolutional-Attention Network for Irregular Text Recognition**
+
+<https://arxiv.org/abs/1904.01375>
+
+**FACLSTM: ConvLSTM with Focused Attention for Scene Text Recognition**
+
+<https://arxiv.org/abs/1904.09405>
+
+# Text Detection + Recognition
+
+**STN-OCR: A single Neural Network for Text Detection and Text Recognition**
+
+- arxiv: <https://arxiv.org/abs/1707.08831>
+- github(MXNet): <https://github.com/Bartzi/stn-ocr>
+
+**Deep TextSpotter: An End-to-End Trainable Scene Text Localization and Recognition Framework**
+
+- intro: ICCV 2017
+- arxiv: <http://openaccess.thecvf.com/content_ICCV_2017/papers/Busta_Deep_TextSpotter_An_ICCV_2017_paper.pdf>
+
+**FOTS: Fast Oriented Text Spotting with a Unified Network**
+
+<https://arxiv.org/abs/1801.01671>
+
+**Single Shot TextSpotter with Explicit Alignment and Attention**
+
+**An end-to-end TextSpotter with Explicit Alignment and Attention**
+
+- intro: CVPR 2018
+- arxiv: <https://arxiv.org/abs/1803.03474>
+- github(official, Caffe): <https://github.com/tonghe90/textspotter>
+
+**Verisimilar Image Synthesis for Accurate Detection and Recognition of Texts in Scenes**
+
+- intro: ECCV 2018
+- arxiv: <https://arxiv.org/abs/1807.03021>
+- github: <https://github.com/fnzhan/Verisimilar-Image-Synthesis-for-Accurate-Detection-and-Recognition-of-Texts-in-Scenes>
+
+**Scene Text Detection and Recognition: The Deep Learning Era**
+
+- arxiv: <https://arxiv.org/abs/1811.04256>
+- gihtub: <https://github.com/Jyouhou/SceneTextPapers>
+
+**A Novel Integrated Framework for Learning both Text Detection and Recognition**
+
+- intro: Alibaba
+- arxiv: <https://arxiv.org/abs/1811.08611>
+
+**Efficient Video Scene Text Spotting: Unifying Detection, Tracking, and Recognition**
+
+- intro: Zhejiang University & Hikvision Research Institute
+- arxiv: <https://arxiv.org/abs/1903.03299>
+
+**A Multitask Network for Localization and Recognition of Text in Images**
+
+- intro: ICDAR 2019
+- arxiv: <https://arxiv.org/abs/1906.09266>
+
+**GA-DAN: Geometry-Aware Domain Adaptation Network for Scene Text Detection and Recognition**
+
+- intro: ICCV 2019
+- arxiv: <https://arxiv.org/abs/1907.09653>
+
+# Breaking Captcha
+
+**Using deep learning to break a Captcha system**
+
+- intro: “Using Torch code to break simplecaptcha with 92% accuracy”
+- blog: <https://deepmlblog.wordpress.com/2016/01/03/how-to-break-a-captcha-system/>
+- github: <https://github.com/arunpatala/captcha>
+
+**Breaking reddit captcha with 96% accuracy**
+
+- blog: <https://deepmlblog.wordpress.com/2016/01/05/breaking-reddit-captcha-with-96-accuracy/>
+- github: <https://github.com/arunpatala/reddit.captcha>
+
+**I’m not a human: Breaking the Google reCAPTCHA**
+
+- paper: <https://www.blackhat.com/docs/asia-16/materials/asia-16-Sivakorn-Im-Not-a-Human-Breaking-the-Google-reCAPTCHA-wp.pdf>
+
+**Neural Net CAPTCHA Cracker**
+
+- slides: <http://www.cs.sjsu.edu/faculty/pollett/masters/Semesters/Spring15/geetika/CS298%20Slides%20-%20PDF>
+- github: <https://github.com/bgeetika/Captcha-Decoder>
+- demo: <http://cp-training.appspot.com/>
+
+**Recurrent neural networks for decoding CAPTCHAS**
+
+- blog: <https://deepmlblog.wordpress.com/2016/01/12/recurrent-neural-networks-for-decoding-captchas/>
+- demo: <http://simplecaptcha.sourceforge.net/>
+- code: <http://sourceforge.net/projects/simplecaptcha/>
+
+**Reading irctc captchas with 95% accuracy using deep learning**
+
+- github: <https://github.com/arunpatala/captcha.irctc>
+
+**端到端的OCR：基于CNN的实现**
+
+- blog: <http://blog.xlvector.net/2016-05/mxnet-ocr-cnn/>
+
+**I Am Robot: (Deep) Learning to Break Semantic Image CAPTCHAs**
+
+- intro: automatically solving 70.78% of the image reCaptchachallenges, while requiring only 19 seconds per challenge. apply to the Facebook image captcha and achieve an accuracy of 83.5%
+- paper: <http://www.cs.columbia.edu/~polakis/papers/sivakorn_eurosp16.pdf>
+
+**SimGAN-Captcha**
+
+- intro: Solve captcha without manually labeling a training set
+- github: <https://github.com/rickyhan/SimGAN-Captcha>
+
+# Handwritten Recognition
+
+**High Performance Offline Handwritten Chinese Character Recognition Using GoogLeNet and Directional Feature Maps**
+
+- arxiv: <http://arxiv.org/abs/1505.04925>
+- github: <https://github.com/zhongzhuoyao/HCCR-GoogLeNet>
+
+**Recognize your handwritten numbers**
+
+![img](https://cdn-images-1.medium.com/max/800/1*YGT2w66tVNIgdiK7hEPSTQ.png)
+
+<https://medium.com/@o.kroeger/recognize-your-handwritten-numbers-3f007cbe46ff#.jllz62xgu>
+
+**Handwritten Digit Recognition using Convolutional Neural Networks in Python with Keras**
+
+- blog: <http://machinelearningmastery.com/handwritten-digit-recognition-using-convolutional-neural-networks-python-keras/>
+
+**MNIST Handwritten Digit Classifier**
+
+- github: <https://github.com/karandesai-96/digit-classifier>
+
+**如何用卷积神经网络CNN识别手写数字集？**
+
+- blog: <http://www.cnblogs.com/charlotte77/p/5671136.html>
+
+**LeNet – Convolutional Neural Network in Python**
+
+- blog: <http://www.pyimagesearch.com/2016/08/01/lenet-convolutional-neural-network-in-python/>
+
+**Scan, Attend and Read: End-to-End Handwritten Paragraph Recognition with MDLSTM Attention**
+
+- arxiv: <http://arxiv.org/abs/1604.03286>
+
+**MLPaint: the Real-Time Handwritten Digit Recognizer**
+
+![img](http://blog.mldb.ai/img/mlpaint_digits_thumb.gif)
+
+- blog: <http://blog.mldb.ai/blog/posts/2016/09/mlpaint/>
+- github: <https://github.com/mldbai/mlpaint>
+- demo: <https://docs.mldb.ai/ipy/notebooks/_demos/_latest/Image%20Processing%20with%20Convolutions.html>
+
+**Training a Computer to Recognize Your Handwriting**
+
+<https://medium.com/@annalyzin/training-a-computer-to-recognize-your-handwriting-24b808fb584#.gd4pb9jk2>
+
+**Using TensorFlow to create your own handwriting recognition engine**
+
+- blog: <https://niektemme.com/2016/02/21/tensorflow-handwriting/>
+- github: <https://github.com/niektemme/tensorflow-mnist-predict/>
+
+**Building a Deep Handwritten Digits Classifier using Microsoft Cognitive Toolkit**
+
+- blog: <https://medium.com/@tuzzer/building-a-deep-handwritten-digits-classifier-using-microsoft-cognitive-toolkit-6ae966caec69#.c3h6o7oxf>
+- github: <https://github.com/tuzzer/ai-gym/blob/a97936619cf56b5ed43329c6fa13f7e26b1d46b8/MNIST/minist_softmax_cntk.py>
+
+**Hand Writing Recognition Using Convolutional Neural Networks**
+
+- intro: This CNN-based model for recognition of hand written digits attains a validation accuracy of 99.2% after training for 12 epochs. Its trained on the MNIST dataset on Kaggle.
+- github: <https://github.com/ayushoriginal/HandWritingRecognition-CNN>
+
+**Design of a Very Compact CNN Classifier for Online Handwritten Chinese Character Recognition Using DropWeight and Global Pooling**
+
+- intro: 0.57 MB, performance is decreased only by 0.91%.
+- arxiv: <https://arxiv.org/abs/1705.05207>
+
+**Handwritten digit string recognition by combination of residual network and RNN-CTC**
+
+<https://arxiv.org/abs/1710.03112>
+
+# Plate Recognition
+
+**Reading Car License Plates Using Deep Convolutional Neural Networks and LSTMs**
+
+- arxiv: <http://arxiv.org/abs/1601.05610>
+
+**Number plate recognition with Tensorflow**
+
+![img](http://matthewearl.github.io/assets/cnn-anpr/topology.svg)
+
+- blog: <http://matthewearl.github.io/2016/05/06/cnn-anpr/>
+- github(Deep ANPR): <https://github.com/matthewearl/deep-anpr>
+
+**end-to-end-for-plate-recognition**
+
+- github: <https://github.com/szad670401/end-to-end-for-chinese-plate-recognition>
+
+**Segmentation-free Vehicle License Plate Recognition using ConvNet-RNN**
+
+- intro: International Workshop on Advanced Image Technology, January, 8-10, 2017. Penang, Malaysia. Proceeding IWAIT2017
+- arxiv: <https://arxiv.org/abs/1701.06439>
+
+**License Plate Detection and Recognition Using Deeply Learned Convolutional Neural Networks**
+
+- arxiv: <https://arxiv.org/abs/1703.07330>
+- api: <https://www.sighthound.com/products/cloud>
+
+**Adversarial Generation of Training Examples for Vehicle License Plate Recognition**
+
+<https://arxiv.org/abs/1707.03124>
+
+**Towards End-to-End Car License Plates Detection and Recognition with Deep Neural Networks**
+
+- arxiv: <https://arxiv.org/abs/1709.08828>
+
+**Towards End-to-End License Plate Detection and Recognition: A Large Dataset and Baseline**
+
+- paper: <http://openaccess.thecvf.com/content_ECCV_2018/papers/Zhenbo_Xu_Towards_End-to-End_License_ECCV_2018_paper.pdf>
+- github: <https://github.com/detectRecog/CCPD>
+- dataset: <https://drive.google.com/file/d/1fFqCXjhk7vE9yLklpJurEwP9vdLZmrJd/view>
+
+**High Accuracy Chinese Plate Recognition Framework**
+
+- intro: 基于深度学习高性能中文车牌识别 High Performance Chinese License Plate Recognition Framework.
+- gihtub: <https://github.com/zeusees/HyperLPR>
+
+**LPRNet: License Plate Recognition via Deep Neural Networks**
+
+- intrp=o: Intel IOTG Computer Vision Group
+- intro: works in real-time with recognition accuracy up to 95% for Chinese license plates: 3 ms/plate on nVIDIAR GeForceTMGTX 1080 and 1.3 ms/plate on IntelR CoreTMi7-6700K CPU.
+- arxiv: <https://arxiv.org/abs/1806.10447>
+
+**How many labeled license plates are needed?**
+
+- intro: Chinese Conference on Pattern Recognition and Computer Vision
+- arxiv: <https://arxiv.org/abs/1808.08410>
+
+**An End-to-End Neural Network for Multi-line License Plate Recognition**
+
+- intro: ICPR 2018
+- paper: <https://sci-hub.se/10.1109/ICPR.2018.8546200#>
+- github: <https://github.com/deeplearningshare/multi-line-plate-recognition>
+
+# Blogs
+
+**Applying OCR Technology for Receipt Recognition**
+
+![img](http://rnd.azoft.com/wp-content/uploads/2016/04/applying-ocr-technology-for-receipt-recognition.png)
+
+- blog: <http://rnd.azoft.com/applying-ocr-technology-receipt-recognition/>
+- mirror: <http://pan.baidu.com/s/1qXQBQiC>
+
+**Hacking MNIST in 30 lines of Python**
+
+- blog: <http://jrusev.github.io/post/hacking-mnist/>
+- github: <https://github.com/jrusev/simple-neural-networks>
+
+**Optical Character Recognition Using One-Shot Learning, RNN, and TensorFlow**
+
+<https://blog.altoros.com/optical-character-recognition-using-one-shot-learning-rnn-and-tensorflow.html>
+
+**Creating a Modern OCR Pipeline Using Computer Vision and Deep Learning**
+
+<https://blogs.dropbox.com/tech/2017/04/creating-a-modern-ocr-pipeline-using-computer-vision-and-deep-learning/>
+
+# Projects
+
+**ocropy: Python-based tools for document analysis and OCR**
+
+- github: <https://github.com/tmbdev/ocropy>
+
+**Extracting text from an image using Ocropus**
+
+- blog: <http://www.danvk.org/2015/01/09/extracting-text-from-an-image-using-ocropus.html>
+
+**CLSTM : A small C++ implementation of LSTM networks, focused on OCR**
+
+- github: <https://github.com/tmbdev/clstm>
+
+**OCR text recognition using tensorflow with attention**
+
+- github: <https://github.com/pannous/caffe-ocr>
+- github: <https://github.com/pannous/tensorflow-ocr>
+
+**Digit Recognition via CNN: digital meter numbers detection**
+
+![img](https://camo.githubusercontent.com/bbdd1924ed88618f11cfe2f302a624591122d666/687474703a2f2f37786e37777a2e636f6d312e7a302e676c622e636c6f7564646e2e636f6d2f64696769742e6a7067)
+
+- github(caffe): <https://github.com/SHUCV/digit>
+
+**Attention-OCR: Visual Attention based OCR**
+
+![img](https://camo.githubusercontent.com/70902af6f701308b84854eb5f2f46f0729288a84/687474703a2f2f63732e636d752e6564752f25374579756e7469616e642f4f43522d322e6a7067)
+
+- github: <https://github.com/da03/Attention-OCR>
+
+**umaru: An OCR-system based on torch using the technique of LSTM/GRU-RNN, CTC and referred to the works of rnnlib and clstm**
+
+- github: <https://github.com/edward-zhu/umaru>
+
+**Tesseract.js: Pure Javascript OCR for 62 Languages**
+
+![img](https://raw.githubusercontent.com/naptha/tesseract.js/master/demo.gif)
+
+- homepage: <http://tesseract.projectnaptha.com/>
+- github: <https://github.com/naptha/tesseract.js>
+
+**DeepHCCR: Offline Handwritten Chinese Character Recognition based on GoogLeNet and AlexNet (With CaffeModel)**
+
+- github: <https://github.com/chongyangtao/DeepHCCR>
+
+**deep ocr: make a better chinese character recognition OCR than tesseract**
+
+<https://github.com/JinpengLI/deep_ocr>
+
+**Practical Deep OCR for scene text using CTPN + CRNN**
+
+<https://github.com/AKSHAYUBHAT/DeepVideoAnalytics/blob/master/notebooks/OCR/readme.md>
+
+**Tensorflow-based CNN+LSTM trained with CTC-loss for OCR**
+
+<https://github.com//weinman/cnn_lstm_ctc_ocr>
+
+**SSD_scene-text-detection**
+
+- github: <https://github.com//chenxinpeng/SSD_scene_text_detection>
+- blog: <http://blog.csdn.net/u010167269/article/details/52563573>
+
+# Videos
+
+**LSTMs for OCR**
+
+- youtube: <https://www.youtube.com/watch?v=5vW8faXvnrc>
+
+# Resources
+
+**Deep Learning for OCR**
+
+<https://github.com/hs105/Deep-Learning-for-OCR>
+
+**Scene Text Localization & Recognition Resources**
+
+- intro: A curated list of resources dedicated to scene text localization and recognition
+- github: <https://github.com/chongyangtao/Awesome-Scene-Text-Recognition>
+
+**Scene Text Localization & Recognition Resources**
+
+- intro: 图像文本位置感知与识别的论文资源汇总
+- github: <https://github.com/whitelok/image-text-localization-recognition/blob/master/README.zh-cn.md>
+
+**awesome-ocr: A curated list of promising OCR resources**
+
+<https://github.com/wanghaisheng/awesome-ocr>
